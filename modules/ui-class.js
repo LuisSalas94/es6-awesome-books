@@ -32,7 +32,9 @@ export class UI {
 	}
 
 	static displayBooks() {
-		const currentDate = new Date();
+		const currentDate = luxon.DateTime.local().toLocaleString(
+			luxon.DateTime.DATETIME_FULL
+		);
 		document.querySelector(".date").innerHTML = currentDate;
 		if (localStorage.getItem("books") === null) {
 			UI.myBooks = [];
