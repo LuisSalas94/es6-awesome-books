@@ -1,7 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
+# ES6 - Awesome Books
 
 
 ## Built With
@@ -11,9 +10,9 @@
 - JavaScript
 - Luxon library
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://luissalas94.github.io/es6-awesome-books/)
 
 
 
